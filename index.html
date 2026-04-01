@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Healthy Bites Store</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<header>
+<h1>Healthy Bites</h1>
+<p>Healthy Snack Subscription Boxes</p>
+</header>
+
+<section class="product">
+
+<img src="snack.png" width="250">
+
+<h2>Monthly Snack Box</h2>
+
+<p>$19.99</p>
+
+<button>Add to Cart</button>
+
+</section>
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}
+</script>
+
+</body>
+</html>
